@@ -9,3 +9,7 @@
 
 [AI on Hardware.pdf](https://github.com/user-attachments/files/19404184/AI.on.Hardware.pdf)
 
+[On-device AI model optimization_.pdf](https://github.com/user-attachments/files/19404348/On-device.AI.model.optimization_.pdf)
+
+
+
