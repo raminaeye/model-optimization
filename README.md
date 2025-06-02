@@ -21,8 +21,10 @@ You can find my blogs on these topics here:
   Pruning 
   
     https://raminaeye.github.io/prune.html
+
+  Adapters 
   
-  https://raminaeye.github.io/adapter.html
+    https://raminaeye.github.io/adapter.html
    
  
 
