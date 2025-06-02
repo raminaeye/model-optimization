@@ -7,4 +7,14 @@ data/
 *data/*
 *data
 data/*
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+*.pyo
+*.pyd
+*.pkl
+*.pickle
 
