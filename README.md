@@ -8,23 +8,23 @@ You can find my blogs on these topics here:
 
   Quantization
   
-    https://raminaeye.github.io/quantization.html
+  https://raminaeye.github.io/quantization.html
 
   Neural Architecture Search
   
-    https://raminaeye.github.io/nas.html
+  https://raminaeye.github.io/nas.html
 
-  Knowledge Distillation
+  Knowledge Distillation (Coming soon!)
   
-    https://raminaeye.github.io/kd.html
+  https://raminaeye.github.io/kd.html
 
-  Pruning 
+  Pruning (Coming soon!)
   
-    https://raminaeye.github.io/prune.html
+  https://raminaeye.github.io/prune.html
 
-  Adapters 
+  Adapters (Coming soon!)
   
-    https://raminaeye.github.io/adapter.html
+  https://raminaeye.github.io/adapter.html
    
  
 
