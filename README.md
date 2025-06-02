@@ -6,13 +6,21 @@ This repository contain toy example notebooks on applying a varity of model opti
 
 You can find my blogs on these topics here: 
 
-  https://raminaeye.github.io/quantization.html
+  Quantization
   
-  https://raminaeye.github.io/nas.html
+    https://raminaeye.github.io/quantization.html
+
+  Neural Architecture Search
   
-  https://raminaeye.github.io/kd.html
+    https://raminaeye.github.io/nas.html
+
+  Knowledge Distillation
   
-  https://raminaeye.github.io/prune.html
+    https://raminaeye.github.io/kd.html
+
+  Pruning 
+  
+    https://raminaeye.github.io/prune.html
   
   https://raminaeye.github.io/adapter.html
    
