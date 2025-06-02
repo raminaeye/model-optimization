@@ -1,15 +1,15 @@
 # Model Optimization
- 
+This repository contain toy example notebooks on applying a varity of model optimization techniques to computer vision and LLM models. 
 
-[Quantization.pdf](https://github.com/user-attachments/files/19404105/Quantization.pdf)
 
-[Pruning.pdf](https://github.com/user-attachments/files/19404104/Pruning.pdf)
+You can find my blogs on these topics here: 
 
-[Knowledge distillation.pdf](https://github.com/user-attachments/files/19404183/Knowledge.distillation.pdf)
-
-[AI on Hardware.pdf](https://github.com/user-attachments/files/19404184/AI.on.Hardware.pdf)
-
-[On-device AI model optimization_.pdf](https://github.com/user-attachments/files/19404348/On-device.AI.model.optimization_.pdf)
+ https://raminaeye.github.io/quantization.html
+ https://raminaeye.github.io/nas.html
+ https://raminaeye.github.io/kd.html
+ https://raminaeye.github.io/prune.html
+ https://raminaeye.github.io/adapter.html
+  
 
 
 
