@@ -1,5 +1,15 @@
-# https://github.com/pytorch/vision/blob/release/0.8.0/torchvision/models/resnet.py
-# https://leimao.github.io/blog/PyTorch-Static-Quantization/
+"""ResNet model definitions adapted for static quantization.
+
+Based on:
+- https://github.com/pytorch/vision/blob/release/0.8.0/torchvision/models/resnet.py
+- https://leimao.github.io/blog/PyTorch-Static-Quantization/
+
+Differences from the stock torchvision ResNet:
+- Each residual block uses two independent ReLU modules (relu1/relu2) so that
+  ``torch.quantization.fuse_modules`` can fuse conv+bn+relu pairs by name.
+- The residual skip addition goes through ``nn.quantized.FloatFunctional``
+  instead of ``+=`` so the quantized graph stays valid.
+"""
 import torch
 from torch import Tensor
 import torch.nn as nn
@@ -138,7 +148,7 @@ class Bottleneck(nn.Module):
 
         out = self.conv2(out)
         out = self.bn2(out)
-        out = self.relu(out)
+        out = self.relu1(out)
 
         out = self.conv3(out)
         out = self.bn3(out)
